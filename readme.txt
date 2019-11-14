@@ -30,3 +30,7 @@ Type
 Evolves To
 	Wartortle
 	http://pokemon.wikia.com/wiki/Wartortle
+
+
+
+
