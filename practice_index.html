@@ -45,7 +45,7 @@
     </tbody>
   </table> -->
   
-
+<!-- 
   <h1>First Gen Pokemon Chart</h1>
   <table border="1">
     <thead>
@@ -76,13 +76,55 @@
       <td><a href="http://pokemon.wikia.com/wiki/Wartortle">Wartortle</a></td>
     </tr>
     </tbody>
-  </table>
+  </table> -->
 
-  <form action="" method="POST">
-    <input type="text">
-    <input type="password">
+  <!-- action - where the form sends data to
+       method - what http method (get / post)
+       input tags are inline
+  -->
+ 
+  <!-- <h1>Log In</h1>
+  <form action="http://wikipedia.org" method="GET">
+    <input type="text" placeholder = "username">
+    <input type="password" placeholder = "password">
     <button>Login</button>
-  </form>
+  </form> -->
+  
+  <!-- <h1>Log In</h1>
+  <form>
+    <input name="username" type="text" placeholder = "username">
+    <input name="password" type="password" placeholder = "password">
+    <button>Login</button>
+  </form> -->
+  
+  <!-- Labels let us add captions to individual elements like inputs in our form:
+  <h1>Log In</h1>
+  <form>
+    <label for="username">Username:</label>
+    <input id="username" name="username" type="text" placeholder="username">
+
+    <label for="password">Password:</label>
+    <input id="password" name="password" type="password" placeholder="password">
+
+    <input type="submit">
+  </form>  -->
+
+  Form validations allow us to enforce rules and structure on different parts of a form:
+
+  <h1>Log In</h1>
+  <form>
+    <label for="username">Username:</label>
+    <input id="username" name="username" type="text" placeholder="username" required>
+
+    <label for="password">Password:</label>
+    <input id="password" name="password" type="password" placeholder="password" required>
+
+    <input type="submit">
+  </form> 
+
+
+
+
 
 </body>
 </html>
