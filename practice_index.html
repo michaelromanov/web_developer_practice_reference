@@ -7,7 +7,6 @@
   <title>Document</title>
 </head>
 <body>
-  
   <!-- <table border="1">
     <tr>
       <th>Name</th>
@@ -109,22 +108,62 @@
     <input type="submit">
   </form>  -->
 
-  Form validations allow us to enforce rules and structure on different parts of a form:
+  <!-- Form validations allow us to enforce rules and structure on different parts of a form.  The common ones are presence validation and data type validation.
 
   <h1>Log In</h1>
-  <form>
+  <form action="http://www.wikipedia.org"> 
     <label for="username">Username:</label>
     <input id="username" name="username" type="text" placeholder="username" required>
+
+    <label for="email">Email:</label>
+    <input id="email" name="email" type="email" placeholder="email" required>
 
     <label for="password">Password:</label>
     <input id="password" name="password" type="password" placeholder="password" required>
 
     <input type="submit">
-  </form> 
+  </form>  -->
+<!-- 
+    Radio Buttons, Select Dropdowns, and TextArea :
+    two more ways of getting user input
 
+    <p>Do you prefer cats or dogs?</p>
 
+    <form action="">
+      <label for="dogs">Dogs:</label>
+      <input type="radio" name="petChoice" id="dogs" value="DOGS">
 
+      <label for="cats">Cats</label>
+      <input type="radio" name="petChoice" id="cats" value="CATS">
 
+      <p>What is your favorite color?</p>
+      <select name="color" id="">
+        <option>Red</option>
+        <option>Orange</option>
+        <option>Yellow</option>
+      </select>
 
+      <p>What is your mood?</p>
+      <select name="mood" id="">
+        <option value="happy">:)</option>
+        <option value="nuetral">:|</option>
+        <option value="sad">:(</option>
+      </select>
+
+      <p>Text area is good for when you need more than one line of text.  A single line of text would be the input type="text" however text area is a much bigger area to write text in</p>
+
+      <input type="text">
+
+      <br>
+      <br>
+      <textarea name="paragraph" id="" cols="30" rows="10"></textarea>
+      <br>
+      <br>
+      <button>Go!</button> 
+      if a button or input type submit is included at the end of a form it will submit that form -->
+
+      Form Excercise
+
+    </form>
 </body>
 </html>
