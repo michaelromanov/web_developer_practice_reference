@@ -18,16 +18,21 @@
     .highlight {
       color: yellow;
     }
+    #special {
+      color: pink;
+    }
 
   </style>
 </head>
 <body>
   <p>HELLO!!!</p>
   <ul>
-    <li class="highlight">John</li>
+    <li id="special" class="highlight">John</li>
     <li>Paul</li>
     <li>George</li>
     <li class="highlight">Ringo</li>
   </ul>
+  <p>Type selectors like ul or p or li is least specific, class is more specific, pseudo classes like input[type="text"] { } or a:hover and input:checked are more specific and id is even more specific.</p>
+
 </body>
 </html>
